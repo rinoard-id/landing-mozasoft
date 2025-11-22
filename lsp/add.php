@@ -26,7 +26,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
   <form method="post">
     <div class="mb-2"><label>Nama</label><input name="nama_lep" class="form-control" required></div>
     <div class="mb-2"><label>Email</label><input name="email" class="form-control" required></div>
-    <div class="mb-2"><label>Provinsi</label><input name="provinsi" class="form-control"></div>
+    <div class="mb-2"><label>Lokasi</label><input name="provinsi" class="form-control"></div>
     <div class="mb-2"><label>No HP</label><input name="no_hp" class="form-control"></div>
     <button class="btn btn-primary">Simpan</button>
     <a href="index.php" class="btn btn-secondary">Batal</a>

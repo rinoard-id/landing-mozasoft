@@ -32,7 +32,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
   <form method="post">
     <div class="mb-2"><label>Nama</label><input name="nama_lep" class="form-control" value="<?php echo e($row['nama_lep']); ?>" required></div>
     <div class="mb-2"><label>Email</label><input name="email" class="form-control" value="<?php echo e($row['email']); ?>" required></div>
-    <div class="mb-2"><label>Provinsi</label><input name="provinsi" class="form-control" value="<?php echo e($row['provinsi']); ?>"></div>
+    <div class="mb-2"><label>Lokasi</label><input name="provinsi" class="form-control" value="<?php echo e($row['provinsi']); ?>"></div>
     <div class="mb-2"><label>No HP</label><input name="no_hp" class="form-control" value="<?php echo e($row['no_hp']); ?>"></div>
     <button class="btn btn-primary">Simpan</button>
     <a href="index.php" class="btn btn-secondary">Batal</a>
