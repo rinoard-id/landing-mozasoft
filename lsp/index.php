@@ -257,9 +257,9 @@ $wa_ditolak  = countStatus($pdo, 'status_wa', 'ditolak');
                 }
             }
             $wa_text = 
-              "Halo Bapak/Ibu pengelola LSP " . $r['nama_lep'] . ", perkenalkan saya Risma dari Moza Asesmen %0D%0A" .
-              "Kami mengembangkan aplikasi digital untuk membantu LSP dalam mengelola proses asesmen dan administrasi agar lebih efisien dan terdokumentasi rapi.%0D%0A%0D%0A" .
-              "Saya kirimkan juga file PDF singkat berisi penjelasan fitur dan tampilan aplikasinya (tanpa biaya atau komitmen apa pun).%0D%0A%0D%0A" .
+              "Halo Bapak/Ibu pengelola LSP " . $r['nama_lep'] . ", perkenalkan saya Risma dari Moza Asesmen, " .
+              "Kami mengembangkan aplikasi digital untuk membantu LSP dalam mengelola proses asesmen dan administrasi agar lebih efisien dan terdokumentasi rapi." .
+              "Saya kirimkan juga file PDF singkat berisi penjelasan fitur dan tampilan aplikasinya (tanpa biaya atau komitmen apa pun)." .
               "Kalau Bapak/Ibu berkenan, kami juga bisa jadwalkan demo singkat (±10 menit) agar bisa melihat langsung bagaimana Moza membantu proses asesmen LSP.";
             $wa_url = $nohp ? ('https://api.whatsapp.com/send?phone=' . $nohp . '&text=' . rawurlencode($wa_text)) : '#';
             ?>
