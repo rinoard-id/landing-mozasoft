@@ -136,31 +136,32 @@ $wa_ditolak  = countStatus($pdo, 'status_wa', 'ditolak');
         <option value="email" <?php if($field=='email') echo 'selected'; ?>>Email</option>
         <option value="nohp" <?php if($field=='nohp') echo 'selected'; ?>>No HP</option>
       </select>
-      <button class="btn btn-primary">Cari</button>
+      <button class="btn btn-primary btn-sm">Cari</button>
     </form>
     <div class="ms-3 d-flex align-items-center">
     <div class="p-2 border rounded bg-light">
         <strong>Email:</strong>
-        <span class="badge bg-success">Sent: <?= $email_sent ?></span>
-        <span class="badge bg-danger">Unsent: <?= $email_unsent ?></span>
-        <span class="badge bg-primary">Diterima: <?= $email_diterima ?></span>
-        <span class="badge bg-secondary">Ditolak: <?= $email_ditolak ?></span>
+        <span class="badge bg-success"><?= $email_sent ?></span>
+        <span class="badge bg-danger"><?= $email_unsent ?></span>
+        <span class="badge bg-primary"><?= $email_diterima ?></span>
+        <span class="badge bg-secondary"><?= $email_ditolak ?></span>
     </div>
 
     <div class="p-2 border rounded bg-light ms-2">
         <strong>WA:</strong>
-        <span class="badge bg-success">Sent: <?= $wa_sent ?></span>
-        <span class="badge bg-danger">Unsent: <?= $wa_unsent ?></span>
-        <span class="badge bg-primary">Diterima: <?= $wa_diterima ?></span>
-        <span class="badge bg-secondary">Ditolak: <?= $wa_ditolak ?></span>
+        <span class="badge bg-success"><?= $wa_sent ?></span>
+        <span class="badge bg-danger"><?= $wa_unsent ?></span>
+        <span class="badge bg-primary"><?= $wa_diterima ?></span>
+        <span class="badge bg-secondary"><?= $wa_ditolak ?></span>
     </div>
 </div>
     <div class="ms-auto">
-      <a href="add.php" class="btn btn-success">Tambah LSP</a>
+      <b><?= number_format($total_lsp) ?> LSP</b>
+      <a href="add.php" class="btn btn-sm btn-success">+</a>
     </div>
   </div>
 
-  <p><b>Total LSP: <?= number_format($total_lsp) ?></b></p>
+  
 
 
   <table class="table table-striped table-bordered">
