@@ -57,8 +57,7 @@
         >
           <h3 class="text-2xl font-bold mb-2 text-white">🧭 Moza Asesmen</h3>
           <p class="text-gray-400 mb-4">
-            Platform digital untuk manajemen uji kompetensi — dari pendaftaran
-            peserta hingga pelaporan hasil asesmen. (Coming Soon)
+            Platform digital untuk manajemen uji kompetensi asesmen. (Coming Soon)
           </p>
           <a href="asesmen.php"
             ><span
@@ -68,16 +67,17 @@
           >
         </div>
         <div
-          class="p-8 rounded-2xl bg-[#141414] shadow-inner border border-[#6e493a]/20"
+          class="p-8 rounded-2xl bg-[#1c1c1c] shadow-inner border border-[#6e493a]/30"
         >
-          <h3 class="text-2xl font-bold mb-2 text-white">💡 Future Projects</h3>
+          <h3 class="text-2xl font-bold mb-2 text-white">🚀 Lokasio</h3>
           <p class="text-gray-400 mb-4">
-            Rencana pengembangan aplikasi bisnis, manajemen data, dan sistem
-            otomasi dengan teknologi modern.
+            Platform Pencarian Ruko & Ruang Usaha Modern (Coming Soon)
           </p>
-          <span class="px-4 py-2 bg-[#9f7c6a] text-white rounded-full text-sm"
-            >On Research</span
-          >
+          <a href="lokasio.php"
+            ><span class="px-4 py-2 bg-[#6e493a] text-white rounded-full text-sm"
+              >Detail</span
+            >
+          </a>
         </div>
       </div>
     </section>

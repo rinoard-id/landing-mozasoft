@@ -64,7 +64,7 @@
               class="w-full h-full object-cover scale-150"
             />
           </div>
-          <h1 class="text-lg font-semibold text-white">Mozasoft</h1>
+          <h1 class="text-lg font-semibold text-white"><a href="index.php">Mozasoft</a></h1>
         </div>
 
         <div class="hidden md:flex items-center space-x-8 text-gray-300">
