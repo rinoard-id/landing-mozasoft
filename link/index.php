@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0;url=login.php">
+<meta http-equiv="refresh" content="0;url=https://docs.google.com/spreadsheets/d/1S3_UPIWAkKrVszldCibJltlLyu4Dzu4t/edit?usp=sharing&ouid=111070158002516067162&rtpof=true&sd=true">
