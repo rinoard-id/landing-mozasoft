@@ -1,15 +1,8 @@
-
-    <footer
-      class="bg-[#0b0b0b] text-gray-500 text-center py-10 border-t border-white/10"
-    >
-      <h3 class="text-lg font-semibold mb-3 gradient-accent">Hubungi Kami</h3>
-      <p class="mb-2">
-        Email:
-        <a href="mailto:info@mozasoft.com" class="underline text-[#9f7c6a]"
-          >info@mozasoft.com</a
-        >
-      </p>
-      <p class="mb-6">Wa: 08133116694</p>
-      <p class="mb-6">Denpasar, Bali</p>
-      <p class="text-sm text-gray-600">© 2025 Mozasoft. All rights reserved.</p>
-    </footer>
+<footer class="bg-[#f5f5f7] text-[#6e6e73] text-center py-16 border-t border-black/10">
+  <div class="max-w-4xl mx-auto px-6">
+    <h3 class="text-xl font-semibold mb-4 text-[#1d1d1f] tracking-tight">Hubungi Kami</h3>
+    <p class="mb-2">Wa: 0895380052983</p>
+    <p class="mb-8">Denpasar, Bali</p>
+    <p class="text-xs text-[#86868b]">© 2025 Mozasoft. All rights reserved.</p>
+  </div>
+</footer>

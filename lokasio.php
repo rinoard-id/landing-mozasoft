@@ -2,117 +2,55 @@
 <html lang="en">
 <?php include "nav.php"; ?>
 
-<style>
-.lokasio-section {
-  max-width: 900px;
-  margin: 80px auto;
-  text-align: center;
-  padding: 0 20px;
-}
+<body class="selection:bg-[#0071e3] selection:text-white relative overflow-x-hidden">
+  <!-- Ambient Background Orbs -->
+  <div class="absolute top-20 left-1/4 w-[500px] h-[500px] bg-sky-200/50 rounded-full blur-[140px] pointer-events-none"></div>
+  <div class="absolute top-1/2 right-1/4 w-[600px] h-[600px] bg-indigo-200/40 rounded-full blur-[160px] pointer-events-none"></div>
 
-.badge {
-  display: inline-block;
-  background: #f1f1f5;
-  padding: 8px 18px;
-  border-radius: 50px;
-  font-size: 14px;
-  color: #555;
-  margin-bottom: 25px;
-}
+<section class="max-w-5xl mx-auto px-6 pt-40 pb-28 text-center relative z-10">
+  <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full liquid-glass text-xs font-medium text-[#424245] mb-8 shadow-sm">
+    <span>🗺️📍</span> Lokasio — Platform Pencarian Ruko & Ruang Usaha
+  </div>
 
-.title {
-  font-size: 46px;
-  line-height: 1.15;
-  font-weight: 700;
-  color: #fafafa;
-  margin-bottom: 16px;
-}
+  <h1 class="text-4xl sm:text-6xl md:text-7xl font-extrabold tracking-tight text-[#1d1d1f] mb-8 leading-[1.1]">
+    Temukan Lokasi Usaha Impian Anda dengan <span class="liquid-gradient">Lokasio</span>
+  </h1>
 
-.gradient {
-  background: linear-gradient(90deg, #4e8cff, #6c4bff);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-.subtitle {
-  font-size: 20px;
-  line-height: 1.6;
-  color: #fafafa;
-  max-width: 700px;
-  margin: 0 auto 40px;
-}
-
-.features-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 15px;
-  margin-bottom: 50px;
-}
-
-.feature-item {
-  padding: 14px 20px;
-  background: #fafafa;
-  border-radius: 25px;
-  font-size: 16px;
-  color: #444;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
-}
-
-.comingsoon-box {
-  background: linear-gradient(135deg, #f8f9ff, #eef2ff);
-  border-radius: 20px;
-  padding: 40px 30px;
-  margin: 60px auto 30px;
-  max-width: 600px;
-  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
-}
-
-.soon-title {
-  font-size: 28px;
-  font-weight: 700;
-  letter-spacing: 8px;
-  color: #4e5cff;
-  margin-bottom: 10px;
-}
-
-.soon-text {
-  font-size: 17px;
-  color: #555;
-}
-
-.mozasoft-note {
-  margin-top: 40px;
-  font-size: 14px;
-  color: #999;
-}
-
-</style>
-
-<section class="lokasio-section">
-  <div class="badge">🚀 Produk baru dari Mozasoft</div>
-
-  <h1 class="title">Temukan Lokasi Usaha & Ruko <span class="gradient">Dengan Lebih Mudah</span></h1>
-
-  <p class="subtitle">
-    <strong>Lokasio</strong> mempermudah pelaku usaha menemukan ruko, kios, booth, hunian usaha, dan ruang dagang lain
-    secara cepat, transparan, dan bebas ribet.
+  <p class="text-[#424245] text-lg md:text-xl max-w-3xl mx-auto mb-16 font-light leading-relaxed">
+    <strong>Lokasio</strong> mempermudah pelaku usaha, UMKM, dan pebisnis menemukan ruko, kios, booth, dan ruang komersial secara cepat, akurat, dan transparan.
   </p>
 
-  <div class="features-grid">
-    <div class="feature-item">🔍 Listing terkurasi & akurat</div>
-    <div class="feature-item">📍 Filter lokasi, harga, ukuran</div>
-    <div class="feature-item">🏷️ Foto + detail fasilitas</div>
-    <div class="feature-item">💬 Hubungi langsung via Wa</div>
-    <div class="feature-item">🏪 Ideal untuk UMKM, Industri, dll</div>
+  <!-- Features Bento Grid -->
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left mb-20">
+    <div class="liquid-glass p-8 rounded-3xl flex flex-col justify-between">
+      <div>
+        <div class="text-3xl mb-4">🔍</div>
+        <h3 class="text-xl font-bold text-[#1d1d1f] mb-2">Listing Terkurasi</h3>
+        <p class="text-[#424245] text-sm font-light leading-relaxed">Pilihan ruko dan ruang komersial terverifikasi dengan informasi detail dan akurat.</p>
+      </div>
+    </div>
+    <div class="liquid-glass p-8 rounded-3xl flex flex-col justify-between">
+      <div>
+        <div class="text-3xl mb-4">📍</div>
+        <h3 class="text-xl font-bold text-[#1d1d1f] mb-2">Filter Geolokasi</h3>
+        <p class="text-[#424245] text-sm font-light leading-relaxed">Cari lokasi berdasarkan wilayah strategis, kisaran harga sewa, dan luas area.</p>
+      </div>
+    </div>
+    <div class="liquid-glass p-8 rounded-3xl flex flex-col justify-between md:col-span-2 lg:col-span-1">
+      <div>
+        <div class="text-3xl mb-4">💬</div>
+        <h3 class="text-xl font-bold text-[#1d1d1f] mb-2">Hubungi Langsung</h3>
+        <p class="text-[#424245] text-sm font-light leading-relaxed">Terhubung langsung dengan pemilik atau agen properti via WhatsApp dalam satu klik.</p>
+      </div>
+    </div>
   </div>
 
-  <div class="comingsoon-box">
-    <div class="soon-title">COMING SOON</div>
-    <div class="soon-text">Sedang dalam pengembangan — rilis awal 2026</div>
+  <div class="liquid-glass p-10 rounded-3xl max-w-xl mx-auto text-center border border-black/10 shadow-xl">
+    <div class="text-xl font-bold text-[#1d1d1f] mb-3">Tertarik dengan Lokasio?</div>
+    <p class="text-[#424245] text-sm font-light mb-6">Info detail lebih lanjut silahkan hubungi WA.</p>
+    <a href="https://wa.me/62895380052983" target="_blank" class="inline-block px-8 py-3 rounded-full btn-apple text-sm font-semibold shadow-lg">Hubungi WhatsApp</a>
   </div>
-
 </section>
-
 
 <?php include "footer.php"; ?>
 </body>
