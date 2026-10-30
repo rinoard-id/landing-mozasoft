@@ -45,10 +45,13 @@
     </div>
   </div>
 
-  <div class="liquid-glass p-10 rounded-3xl max-w-xl mx-auto text-center border border-black/10 shadow-xl">
-    <div class="text-xl font-bold text-[#1d1d1f] mb-3">Tertarik dengan CitCat?</div>
-    <p class="text-[#424245] text-sm font-light mb-6">Info detail lebih lanjut silahkan hubungi WA.</p>
-    <a href="https://wa.me/62895380052983" target="_blank" class="inline-block px-8 py-3 rounded-full btn-apple text-sm font-semibold shadow-lg">Hubungi WhatsApp</a>
+  <div class="liquid-glass p-10 rounded-3xl max-w-xl mx-auto text-center border border-black/10 shadow-xl space-y-4">
+    <div class="text-xl font-bold text-[#1d1d1f] mb-1">Tertarik dengan CitCat?</div>
+    <p class="text-[#424245] text-sm font-light mb-4">Coba langsung demonya atau hubungi kami untuk informasi lebih lanjut.</p>
+    <div class="flex flex-wrap justify-center gap-3">
+      <a href="https://chat.msof.cloud/" target="_blank" class="inline-block px-8 py-3 rounded-full btn-apple text-sm font-semibold shadow-lg">Coba Demo Live</a>
+      <a href="https://wa.me/62895380052983" target="_blank" class="inline-block px-8 py-3 rounded-full bg-white hover:bg-slate-50 text-[#1d1d1f] border border-black/10 text-sm font-semibold shadow-sm">Hubungi WhatsApp</a>
+    </div>
   </div>
 </section>
 

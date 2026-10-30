@@ -20,6 +20,21 @@
     Sistem manajemen dan kasir (POS) khusus laundry terpadu. Kelola transaksi kiloan/satuan, pencatatan nota digital, status cucian real-time, hingga laporan yang tersinkronisasi dengan Spreadsheet dalam satu genggaman.
   </p>
 
+  <!-- Laundry Screenshot Showcase -->
+  <div class="space-y-12 flex flex-col items-center mb-20">
+    <div class="macos-window rounded-3xl overflow-hidden w-full max-w-4xl shadow-xl">
+      <div class="bg-[#f0f0f2]/90 px-5 py-4 flex items-center space-x-2 border-b border-black/10">
+        <div class="flex space-x-2">
+          <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+          <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
+          <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
+        </div>
+        <div class="text-xs text-[#6e6e73] font-mono mx-auto pr-14">images/claundry.jpg</div>
+      </div>
+      <img src="images/claundry.jpg" class="w-full h-auto object-cover" alt="Laundry POS Showcase">
+    </div>
+  </div>
+
   <!-- Features Bento Grid -->
   <div class="grid md:grid-cols-3 gap-6 text-left mb-20">
     <div class="liquid-glass p-8 rounded-3xl flex flex-col justify-between">
@@ -47,8 +62,8 @@
 
   <div class="liquid-glass p-10 rounded-3xl max-w-xl mx-auto text-center border border-black/10 shadow-xl">
     <div class="text-xl font-bold text-[#1d1d1f] mb-3">Tertarik dengan Laundry POS?</div>
-    <p class="text-[#424245] text-sm font-light mb-6">Info detail lebih lanjut silahkan hubungi WA.</p>
-    <a href="https://wa.me/62895380052983" target="_blank" class="inline-block px-8 py-3 rounded-full btn-apple text-sm font-semibold shadow-lg">Hubungi WhatsApp</a>
+    <p class="text-[#424245] text-sm font-light mb-6">Konsultasikan kebutuhan sistem kasir laundry Anda sekarang.</p>
+    <a href="https://wa.me/62895380052983" target="_blank" class="inline-block px-8 py-3 rounded-full btn-apple text-sm font-semibold shadow-lg">Konsultasikan Aplikasimu Sekarang</a>
   </div>
 </section>
 

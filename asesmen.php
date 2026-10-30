@@ -28,6 +28,18 @@
           <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
           <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
         </div>
+        <div class="text-xs text-[#6e6e73] font-mono mx-auto pr-14">images/moza-asesmen.png</div>
+      </div>
+      <img src="images/moza-asesmen.png" class="w-full h-auto object-cover" alt="Moza Asesmen">
+    </div>
+
+    <div class="macos-window rounded-3xl overflow-hidden w-full max-w-4xl shadow-xl">
+      <div class="bg-[#f0f0f2]/90 px-5 py-4 flex items-center space-x-2 border-b border-black/10">
+        <div class="flex space-x-2">
+          <div class="w-3 h-3 rounded-full bg-[#ff5f56]"></div>
+          <div class="w-3 h-3 rounded-full bg-[#ffbd2e]"></div>
+          <div class="w-3 h-3 rounded-full bg-[#27c93f]"></div>
+        </div>
         <div class="text-xs text-[#6e6e73] font-mono mx-auto pr-14">moza-asesmen-dashboard.jpg</div>
       </div>
       <img src="projek/asesmen/2.jpg" class="w-full h-auto object-cover" alt="Asesmen 2">
